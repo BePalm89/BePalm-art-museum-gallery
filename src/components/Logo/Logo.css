@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  gap: var(--gap-s);
+}
+
+.logo-container {
+  width: 50px;
+}
+
+.logo-container img {
+  width: 100%;
+}
+
+.logo p {
+  font-family: var(--font-family-logo);
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: var(--font-size-l);
+}
